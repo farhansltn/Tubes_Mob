@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/canvas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/project_1"
+        android:layout_width="69dp"
+        android:layout_height="30dp"
+        android:alpha="0.4"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="13sp"
+        android:text="@string/project_1"
+        android:textAppearance="@style/project_1"
+        android:translationY="-6.4sp"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="967dp" />
+
+    <RelativeLayout
+        android:id="@+id/frame_42"
+        android:layout_width="39dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/boxout"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="21dp">
+
+        <RelativeLayout
+            android:id="@+id/arrow_forwa"
+            android:layout_width="39dp"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="-1dp"
+            android:background="@drawable/panah" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/frame_bigone"
+        android:layout_width="320dp"
+        android:layout_height="848dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/frame_3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="45dp">
+
+        <RelativeLayout
+            android:id="@+id/frame_left"
+            android:layout_width="152dp"
+            android:layout_height="848dp"
+            android:background="@drawable/frame_4">
+
+            <RelativeLayout
+                android:id="@+id/frame_l2"
+                android:layout_width="152dp"
+                android:layout_height="200dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="216dp"
+                android:background="@drawable/frame_barang">
+
+                <RelativeLayout
+                    android:id="@+id/fotbar2"
+                    android:layout_width="112dp"
+                    android:layout_height="112dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/stockbarang">
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/jebar2"
+                    android:layout_width="112dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="140dp"
+                    android:background="@drawable/namabarang">
+
+                    <TextView
+                        android:id="@+id/yakult"
+                        android:layout_width="112dp"
+                        android:layout_height="24dp"
+                        android:gravity="center_horizontal|top"
+                        android:lineSpacingExtra="5sp"
+                        android:text="@string/yakult"
+                        android:textAppearance="@style/yakult"
+                        android:translationY="-2.74sp" />
+
+                    <TextView
+                        android:id="@+id/pcs2"
+                        android:layout_width="112dp"
+                        android:layout_height="16dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="24dp"
+                        android:gravity="center_horizontal|top"
+                        android:lineSpacingExtra="2sp"
+                        android:text="@string/pcs"
+                        android:textAppearance="@style/pcs"
+                        android:translationY="-1.18sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/frame_l1"
+                android:layout_width="152dp"
+                android:layout_height="200dp"
+                android:background="@drawable/frame_barang">
+
+                <RelativeLayout
+                    android:id="@+id/fotbar1"
+                    android:layout_width="112dp"
+                    android:layout_height="112dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/frame_barang">
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/jebar1"
+                    android:layout_width="112dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="140dp"
+                    android:background="@drawable/namabarang">
+
+                    <TextView
+                        android:id="@+id/pcs1"
+                        android:layout_width="112dp"
+                        android:layout_height="16dp"
+                        android:layout_marginTop="24dp"
+                        android:gravity="center_horizontal|top"
+                        android:lineSpacingExtra="2sp"
+                        android:text="@string/pcs"
+                        android:textAppearance="@style/pcs"
+                        android:translationY="-1.18sp" />
+
+                    <TextView
+                        android:id="@+id/gery_sereal"
+                        android:layout_width="112dp"
+                        android:layout_height="24dp"
+                        android:gravity="center_horizontal|top"
+                        android:lineSpacingExtra="5sp"
+                        android:text="@string/gery_sereal"
+                        android:textAppearance="@style/gery_sereal"
+                        android:translationY="-2.74sp" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/frame_l3"
+                android:layout_width="152dp"
+                android:layout_height="200dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="432dp"
+                android:background="@drawable/frame_barang">
+
+                <RelativeLayout
+                    android:id="@+id/fotbar3"
+                    android:layout_width="112dp"
+                    android:layout_height="112dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="21dp"
+                    android:layout_marginTop="11dp"
+                    android:background="@drawable/stockbarang">
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/jebar3"
+                    android:layout_width="112dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="140dp"
+                    android:background="@drawable/namabarang">
+
+                    <TextView
+                        android:id="@+id/pcs3"
+                        android:layout_width="112dp"
+                        android:layout_height="16dp"
+                        android:layout_marginTop="24dp"
+                        android:gravity="center_horizontal|top"
+                        android:lineSpacingExtra="2sp"
+                        android:text="@string/pcs"
+                        android:textAppearance="@style/pcs"
+                        android:textColor="#8D6E63"
+                        android:translationY="-1.18sp" />
+
+                    <TextView
+                        android:id="@+id/cheetos_sti"
+                        android:layout_width="112dp"
+                        android:layout_height="24dp"
+                        android:gravity="center_horizontal|top"
+                        android:lineSpacingExtra="5sp"
+                        android:text="@string/cheetos_sti"
+                        android:textAppearance="@style/cheetos_sti"
+                        android:translationY="-2.74sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/frame_l4"
+                android:layout_width="152dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="648dp"
+                android:background="@drawable/frame_barang">
+
+                <RelativeLayout
+                    android:id="@+id/fotbar4"
+                    android:layout_width="112dp"
+                    android:layout_height="112dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/stockbarang">
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/jebar4"
+                    android:layout_width="112dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="140dp"
+                    android:background="@drawable/namabarang">
+
+                    <TextView
+                        android:id="@+id/pcsb"
+                        android:layout_width="112dp"
+                        android:layout_height="16dp"
+                        android:layout_marginTop="24dp"
+                        android:gravity="center_horizontal|top"
+                        android:lineSpacingExtra="2sp"
+                        android:text="@string/pcs"
+                        android:textAppearance="@style/pcs"
+                        android:translationY="-1.18sp" />
+
+                    <TextView
+                        android:id="@+id/marimas_jer"
+                        android:layout_width="112dp"
+                        android:layout_height="24dp"
+                        android:gravity="center_horizontal|top"
+                        android:lineSpacingExtra="5sp"
+                        android:text="@string/marimas_jer"
+                        android:textAppearance="@style/marimas_jer"
+                        android:translationY="-2.74sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/frame_right"
+            android:layout_width="152dp"
+            android:layout_height="848dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="167dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/frame_5">
+
+            <RelativeLayout
+                android:id="@+id/frame_r4"
+                android:layout_width="152dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="648dp"
+                android:background="@drawable/frame_barang">
+
+                <RelativeLayout
+                    android:id="@+id/fotbar44"
+                    android:layout_width="112dp"
+                    android:layout_height="112dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/stockbarang" />
+
+                <RelativeLayout
+                    android:id="@+id/jebar44"
+                    android:layout_width="112dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="140dp"
+                    android:background="@drawable/namabarang">
+
+                    <TextView
+                        android:id="@+id/pcsa"
+                        android:layout_width="112dp"
+                        android:layout_height="16dp"
+                        android:layout_marginTop="24dp"
+                        android:gravity="center_horizontal|top"
+                        android:lineSpacingExtra="2sp"
+                        android:text="@string/pcs"
+                        android:textAppearance="@style/pcs"
+                        android:translationY="-1.18sp" />
+
+                    <TextView
+                        android:id="@+id/kecap_bango"
+                        android:layout_width="112dp"
+                        android:layout_height="24dp"
+                        android:gravity="center_horizontal|top"
+                        android:lineSpacingExtra="5sp"
+                        android:text="@string/kecap_bango"
+                        android:textAppearance="@style/kecap_bango"
+                        android:textColor="#757575"
+                        android:translationY="-2.74sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/frame_r1"
+                android:layout_width="152dp"
+                android:layout_height="200dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="-2dp"
+                android:background="@drawable/frame_barang">
+
+                <RelativeLayout
+                    android:id="@+id/fotbar11"
+                    android:layout_width="112dp"
+                    android:layout_height="112dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/stockbarang">
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/jebar11"
+                    android:layout_width="112dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="140dp"
+                    android:background="@drawable/namabarang">
+
+                    <TextView
+                        android:id="@+id/good_day"
+                        android:layout_width="112dp"
+                        android:layout_height="24dp"
+                        android:gravity="center_horizontal|top"
+                        android:lineSpacingExtra="5sp"
+                        android:text="@string/good_day"
+                        android:textAppearance="@style/good_day"
+                        android:translationY="-2.74sp" />
+
+                    <TextView
+                        android:id="@+id/pcs4"
+                        android:layout_width="112dp"
+                        android:layout_height="16dp"
+                        android:layout_marginTop="24dp"
+                        android:gravity="center_horizontal|top"
+                        android:lineSpacingExtra="2sp"
+                        android:text="@string/pcs"
+                        android:textAppearance="@style/pcs"
+                        android:translationY="-1.18sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/frame_r2"
+                android:layout_width="152dp"
+                android:layout_height="200dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="215dp"
+                android:background="@drawable/frame_barang">
+
+                <RelativeLayout
+                    android:id="@+id/fotbar12"
+                    android:layout_width="112dp"
+                    android:layout_height="112dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/stockbarang">
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/jebar22"
+                    android:layout_width="112dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="140dp"
+                    android:background="@drawable/namabarang">
+
+                    <TextView
+                        android:id="@+id/scarlett_lo"
+                        android:layout_width="112dp"
+                        android:layout_height="24dp"
+                        android:gravity="center_horizontal|top"
+                        android:lineSpacingExtra="5sp"
+                        android:text="@string/scarlett_lo"
+                        android:textAppearance="@style/scarlett_lo"
+                        android:textColor="#757575"
+                        android:translationY="-2.74sp" />
+
+                    <TextView
+                        android:id="@+id/c"
+                        android:layout_width="112dp"
+                        android:layout_height="16dp"
+                        android:layout_marginTop="24dp"
+                        android:gravity="center_horizontal|top"
+                        android:lineSpacingExtra="2sp"
+                        android:text="@string/pcs"
+                        android:textAppearance="@style/pcs"
+                        android:translationY="-1.18sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/frame_r3"
+                android:layout_width="152dp"
+                android:layout_height="200dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="431dp"
+                android:background="@drawable/frame_barang">
+
+                <RelativeLayout
+                    android:id="@+id/fotbar33"
+                    android:layout_width="112dp"
+                    android:layout_height="112dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/stockbarang">
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/jebar33"
+                    android:layout_width="112dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="140dp"
+                    android:background="@drawable/namabarang">
+
+                    <TextView
+                        android:id="@+id/beng_beng"
+                        android:layout_width="112dp"
+                        android:layout_height="24dp"
+                        android:gravity="center_horizontal|top"
+                        android:lineSpacingExtra="5sp"
+                        android:text="@string/beng_beng"
+                        android:textAppearance="@style/beng_beng"
+                        android:textColor="#757575"
+                        android:translationY="-2.74sp" />
+
+                    <TextView
+                        android:id="@+id/pcsd"
+                        android:layout_width="112dp"
+                        android:layout_height="16dp"
+                        android:layout_marginTop="24dp"
+                        android:gravity="center_horizontal|top"
+                        android:lineSpacingExtra="2sp"
+                        android:text="@string/pcs"
+                        android:textAppearance="@style/pcs"
+                        android:translationY="-1.18sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/searchbarframe"
+        android:layout_width="285dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/searchframe"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="80dp">
+
+        <TextView
+            android:id="@+id/cari_barang"
+            android:layout_width="83dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="8dp"
+            android:gravity="top"
+            android:lineSpacingExtra="2sp"
+            android:text="@string/cari_barang"
+            android:textAppearance="@style/cari_barang"
+            android:translationY="-1.09sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:id="@+id/search_blac"
+            android:layout_width="19dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="245dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/search_blac">
+
+            <View
+                android:id="@+id/square"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/square_24" />
+
+            <View
+                android:id="@+id/search_black"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/searchblack_24" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

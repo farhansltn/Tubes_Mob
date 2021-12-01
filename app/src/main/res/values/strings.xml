@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">SplashBejoShop</string>
+    <string name="keluar">
+
+Keluar
+</string>
+    <string name="stock_baran">
+
+Stock Barang
+</string>
+    <string name="kasir">
+
+Kasir
+</string>
+    <string name="rekapitulas">
+
+Rekapitulasi
+</string>
+    <string name="about">
+
+about
+</string>
+    <string name="gery_sereal">
+
+Gery Sereal
+</string>
+    <string name="pcsa">
+
+1300 pcs
+</string>
+    <string name="yakult">
+
+Yakult
+</string>
+    <string name="pcsb">
+
+800 pcs
+</string>
+    <string name="cheetos_sti">
+
+Cheetos stick
+</string>
+    <string name="pcsc">
+
+1300 pcs
+</string>
+    <string name="good_day">
+
+Good day
+</string>
+    <string name="pcsd">
+
+350 pcs
+</string>
+    <string name="cari_barang">
+
+Cari barang
+</string>
+    <string name="pcse">
+
+350 pcs
+</string>
+    <string name="beng_beng">
+
+Beng-beng
+</string>
+    <string name="pcsf">
+
+1300 pcs
+</string>
+    <string name="marimas_jer">
+
+Marimas jeruk
+</string>
+    <string name="project_1">
+
+\u00C2\u00A9Project 1
+</string>
+    <string name="pcs">
+
+350 pcs
+</string>
+    <string name="kecap_bango">
+
+Kecap bango
+</string>
+    <string name="scarlett_lo">
+
+Scarlett lotion
+</string>
+</resources>
